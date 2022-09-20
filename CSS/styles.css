@@ -1,0 +1,55 @@
+/* ctrl + / */
+
+/* Div(блочный элемент) span(строчный элемент) */
+
+span /* построчно */ {
+  text-transform: uppercase;
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: turquoise;
+}
+
+/* Class selectors
+.green {
+    color: green;
+}
+.red {
+    color: red;
+    background: turquoise;
+}
+
+#title{
+    font-size: 40px;
+}
+.lowercase {
+    text-transform: lowercase;
+} */
+
+/* ID
+#title {
+    color: green;
+    background: black;
+}
+
+#subheading {
+    color: grey;
+    background: yellow;
+} */
+
+/* body {
+    color: red;
+    } */
+
+/* Группировка 
+h1, 
+h2 {
+    color: purple;
+    } */
+
+/* ctrl + / */
