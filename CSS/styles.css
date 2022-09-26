@@ -2,7 +2,8 @@
 
 /* Div(блочный элемент) span(строчный элемент) */
 
-span /* построчно */ {
+/* Span построчно 
+span построчно { 
   text-transform: uppercase;
   color: orange;
 }
@@ -14,6 +15,7 @@ span /* построчно */ {
   color: red;
   background: turquoise;
 }
+
 
 /* Class selectors
 .green {

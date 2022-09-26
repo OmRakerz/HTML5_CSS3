@@ -1,0 +1,82 @@
+/* HSL 
+HEX values #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15) 
+          10 11 12 13 14 15
+          #FF0000 - RED
+          #00FF00 - GREEN 
+*/
+#first {
+  color: #04f06a;
+  background: #000;
+}
+#second {
+  color: #fff;
+  background: #00ff00;
+}
+#three {
+  color: #0000ff;
+  background: #f15025;
+}
+
+#four {
+  color: #f234da;
+  background: #222;
+}
+
+body {
+  background: rgba(10, 220, 200, 0.55);
+}
+
+/* Color properties */
+/* Color Background-Color
+#first {
+  color: greenyellow;
+  background-color: grey;
+}
+#second {
+  color: brown;
+  background: yellowgreen;
+} */
+
+/* Color names 140 */
+
+/* Rgb Red Green Blue 0-255 
+#first {
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+#second {
+  color: rgb(0, 255, 0);
+  background: rgb(255, 255, 255);
+}
+#three {
+  color: rgb(0, 0, 255);
+  background: rgb(100, 100, 100);
+}
+body {
+  background: rgb(50, 34, 87);
+}
+    */
+
+/* Rgba 0-1 opacity/transparency(непрозрачность/прозрачность) 
+#first {
+  color: rgb(100, 90, 85);
+  background: rgba(255, 0, 0, 0.5);
+}
+#second {
+  color: rgb(13, 10, 77);
+  background: rgba(255, 0, 0, 0.25);
+}
+#three {
+  color: rgb(170, 55, 15);
+  background: rgba(0, 0, 0, 0);
+}
+
+#four {
+  color: rgb(0, 0, 255);
+  background: rgba(0, 0, 0, 1);
+}
+
+ body {
+  background: rgba(10, 220, 200, 0.55);
+} */
