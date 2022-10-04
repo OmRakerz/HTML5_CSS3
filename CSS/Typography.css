@@ -6,6 +6,7 @@
 body {
     font-family: Helvetica;
 }
+
 h1 {
     font-family: Verdana;
 }
@@ -20,6 +21,7 @@ serif, sans-serif, cursive, fantasy, monospace
 body {
     font-family: "Courier New", Courier, monospace;
 }
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -38,16 +40,20 @@ font-style
 body {
     font-family: "Roboto", sans-serif;
 }
+
 .main {
     font-family: "Yesteryear", cursive;
 }
+
 .subheading {
     font-style: normal;
 }
+
 .one {
     font-weight: bold;
     font-style: italic;
 }
+
 .two {
     font-weight: lighter;
 }
