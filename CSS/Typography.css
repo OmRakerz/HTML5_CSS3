@@ -1,0 +1,86 @@
+/*
+    font-size: font-family;
+*/
+
+/*
+body {
+    font-family: Helvetica;
+}
+h1 {
+    font-family: Verdana;
+}
+*/
+
+/*
+font-stack generic-family
+serif, sans-serif, cursive, fantasy, monospace
+*/
+
+/*
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*/
+
+/*
+GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+*/
+
+/*
+font-weight
+font-style
+*/
+/*
+body {
+    font-family: "Roboto", sans-serif;
+}
+.main {
+    font-family: "Yesteryear", cursive;
+}
+.subheading {
+    font-style: normal;
+}
+.one {
+    font-weight: bold;
+    font-style: italic;
+}
+.two {
+    font-weight: lighter;
+}
+*/
+
+/*
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+*/
+
+a {
+  font-style: 40px;
+  text-decoration: none;
+}
+body {
+  text-transform: uppercase;
+}
+h1 {
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+.one {
+  line-height: 0.5em;
+}
+.two {
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height: 2rem;
+}
+.three {
+  word-spacing: 20px;
+  text-decoration: underline;
+}
