@@ -12,5 +12,5 @@ vw - width - percent of the screen
 .header {
   width: 100vw;
   height: 100vh;
-  background: brown;
+  background: purple;
 }
