@@ -6,7 +6,7 @@ vw - width - percent of the screen
 .banner {
   width: 50vw;
   height: 50vh;
-  background: chartreuse;
+  background: green;
 }
 
 .header {
