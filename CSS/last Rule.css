@@ -6,16 +6,3 @@ p {
 * {
   color: blue;
 }
-
-/* INHERITANCE (Наследование  */
-body {
-  font-family: monospace;
-  line-height: 1.5em;
-}
-div {
-  color: blue;
-  border: 4px solid black;
-}
-h2 {
-  color: green;
-}
