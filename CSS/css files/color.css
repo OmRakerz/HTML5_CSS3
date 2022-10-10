@@ -4,6 +4,7 @@ HEX values #RRGGBB
           10 11 12 13 14 15
           #FF0000 - RED
           #00FF00 - GREEN 
+          #0000FF - BLUE
 */
 #first {
   color: #04f06a;
