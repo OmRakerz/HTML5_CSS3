@@ -1,0 +1,16 @@
+/* Default Display Property */
+/* Блок (block) : ВСЕГДА НАЧИНАЕТ новую строку и занимает всю ширину
+Встроенный (Inline) : НЕ ЗАПУСКАЕТСЯ и занимает столько же места, сколько и содержимое. */
+.block {
+  background: aqua;
+  color: whitesmoke;
+  /* display: block; (ничего не именилось) */
+  /* display: inline; */
+}
+
+.inline {
+  background: brown;
+  color: white;
+  /* display: inline; (ничего не именилось) */
+  /* display: block; */
+}
