@@ -1,11 +1,39 @@
-a {
+/* Display: none, 
+  Opacity: 0, 
+  Visability: hidden */
+div {
+  background: blueviolet;
+  margin: 20px;
+  color: white;
+}
+.none {
+  display: none;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.visability {
+  visibility: hidden;
+}
+
+/* Mobile Navbar */
+/* a {
   font-size: 50px;
   background: brown;
   margin: 30px;
   display: inline-block;
-}
+} 
 
-/* Mobile Navbar */
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +55,8 @@ ul li a {
   display: block;
   padding: 15px 15px;
   margin: 10px;
-}
+} */
+
 /* Basic Horizontal Centering  */
 
 /* body {
