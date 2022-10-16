@@ -1,72 +1,13 @@
-/* Display: none, 
-  Opacity: 0, 
-  Visability: hidden */
-div {
-  background: blueviolet;
-  margin: 20px;
-  color: white;
-}
-.none {
-  display: none;
-}
-
-.opacity {
-  opacity: 1;
-}
-
-.opacity-5 {
-  opacity: 0.5;
-}
-
-.opacity-0 {
-  opacity: 0;
-}
-
-.visability {
-  visibility: hidden;
-}
-
-/* Mobile Navbar */
-/* a {
-  font-size: 50px;
-  background: brown;
-  margin: 30px;
-  display: inline-block;
-} 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-ul li {
-  list-style-type: upper-roman;
-  list-style-type: none;
-}
-ul li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  background: #222;
-  color: #f1502f;
-  display: block;
-  padding: 15px 15px;
-  margin: 10px;
-} */
-
 /* Basic Horizontal Centering  */
 
-/* body {
+body {
   text-align: center;
 }
 .block {
   background: aqua;
   color: whitesmoke;
   width: 200px;
-  /* margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   margin: 20px auto;
 }
@@ -74,7 +15,8 @@ ul li a {
 .inline {
   background: brown;
   color: white;
-} */
+}
+*/
 
 /* Default Display Property */
 /* Блок (block) :  Применение этого значения для встроенных элементов заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого. 
@@ -82,15 +24,15 @@ ul li a {
 
 Встроенный (Inline) : Элемент отображается как встроенный. Использование блочных тегов автоматически создает перенос и показывает содержимое этих тегов с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.
 (НЕ ЗАПУСКАЕТСЯ и занимает столько же места, сколько и содержимое). */
-/* .block {
+.block {
   background: aqua;
   color: whitesmoke;
-  /* display: block; (ничего не именилось) */
-/* display: inline;
+  display: block; /*(ничего не именилось) */
+  display: inline;
 }
 .inline {
   background: brown;
   color: white;
-  /* display: inline; (ничего не именилось) */
-/* display: block; 
-} */
+  display: inline; /*(ничего не именилось) */
+  display: block;
+}
