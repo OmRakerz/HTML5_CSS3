@@ -1,0 +1,30 @@
+/* Mobile Navbar */
+a {
+  font-size: 50px;
+  background: brown;
+  margin: 30px;
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style-type: upper-roman;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #222;
+  color: #f1502f;
+  display: block;
+  padding: 15px 15px;
+  margin: 10px;
+}
