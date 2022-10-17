@@ -72,6 +72,13 @@ div {
 }
 
 /* BACKGROUND-ATTACHMENT */
+/* ДЛЯ BACKGROUND-ATTACHMENT и BACKGROUND IMAGE SHORTCUTS COMBINED:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 * {
   margin: 0;
   padding: 0;
@@ -113,6 +120,59 @@ div {
   background-attachment: fixed;
 }
 
+/* Разеделение BACKGROUND-ATTACHMENT и BACKGROUND IMAGE SHORTCUTS COMBINED */
 hr {
-  height: 100px;
+  height: 200px;
+  border: none;
+  background-color: wheat;
+}
+h2 {
+  font-size: 40px;
+  color: brown;
+  background-color: wheat;
+  font-style: oblique;
+  text-align: center;
+}
+
+/* BACKGROUND IMAGE SHORTCUTS COMBINED */
+.banner {
+  text-decoration: none;
+  background: url("/CSS/images/Isle\ of\ Klezbos.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header {
+  background: linear-gradient(rgba(255, 217, 0, 0.5), rgba(255, 0, 0, 0.5)),
+    url("/CSS/images/big-image.png") center/cover no-repeat fixed; /* Сокращение свойств .banner 
+    Работает только в такой последовательности (по такому порядку) */
+}
+
+/* Linear-Gradient Colorzilla */
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+0,ff6600+31,c72200+100 */
+  background: #f3c5bd; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #e28c7c 0%,
+    #e9b877 0%,
+    #ff7c25 35%,
+    #e02d0a 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #e28c7c 0%,
+    #e9b877 0%,
+    #ff7c25 35%,
+    #e02d0a 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #e28c7c 0%,
+    #e9b877 0%,
+    #ff7c25 35%,
+    #e02d0a 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
 }
