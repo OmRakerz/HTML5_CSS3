@@ -1,0 +1,118 @@
+/* BACKGROUND PROPERTIES 
+    ПОРЯДОК ИМЕЕТ ЗНАЧЕНИЕ*/
+/* div {
+  height: 300px;
+  color: brown;
+  /* height: 400px; сработает 6строка а не четвертая
+}
+.big-img {
+  background: url(/CSS/images/big-image.png);
+}
+.small-img {
+  background: url(/CSS/images/small-image.png);
+}
+.folder-img {
+  background: url(/CSS/images/Isle\ of\ Klezbos.jpg);
+} 
+
+*/
+
+/* BACKGROUND-REPEAT */
+div {
+  height: 300px;
+  color: orange;
+  /* height: 400px; сработает 6строка а не четвертая */
+}
+.big-img {
+  background: url(/CSS/images/big-image.png);
+  /* background-repeat: round; закоммичен для position */
+}
+.small-img {
+  border: 4px solid brown;
+  background: url(/CSS/images/small-image.jpg);
+  background-repeat: repeat; /* ничего не произошло, т.к по умолчанию */
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round;
+}
+.folder-img {
+  background: url(/CSS/images/Isle\ of\ Klezbos.jpg);
+}
+
+/* BACKGROUND-SIZE (Дополнение к коду BACKGROUND-REPEAT) */
+.big-img {
+  background-size: cover;
+}
+/* .small-img {
+    /* background-size: cover;
+  } */
+.folder-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* BACKGROUND-POSITION (Дополнение к коду BACKGROUND-REPEAT) */
+.big-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.small-img {
+  background-repeat: no-repeat;
+  /* background-position: center;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: top; 
+  */
+  /*Движения по осям */
+  background-position: 100% /*(ось x)*/ 100% /* (ось y) */;
+}
+
+/* BACKGROUND-ATTACHMENT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* h1{
+    margin: 0 auto;
+    padding-top: 5px;
+    margin-top: 60px;
+  } */
+
+div {
+  min-height: 100vh;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img {
+  background: url("/CSS/images/big-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.small-img {
+  background: url("/CSS/images/Isle\ of\ Klezbos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("/CSS/images/big-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+hr {
+  height: 100px;
+}
