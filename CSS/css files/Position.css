@@ -1,0 +1,64 @@
+body {
+  background: rgb(196, 154, 77);
+}
+
+div {
+  border: 5px solid brown;
+  background-color: yellowgreen;
+  margin-top: 44px;
+  position: static;
+}
+
+.one {
+  background-color: fuchsia;
+  text-align: left;
+}
+.two {
+  background-color: darkslategrey;
+  left: 20px; /* НЕ РАБОТАЕТ т.к. position: static  */
+}
+.special {
+  background-color: lightsalmon;
+  font-size: 20px;
+}
+
+/* POSITION RELATIVE */
+.one {
+  background-color: blueviolet;
+  /* position: relative; */
+  /* top: 50px; */
+  /* left: 30rem; */
+  right: 50%;
+  bottom: 20px;
+}
+
+/* POSITION ABSOLUTE */
+div {
+  position: relative;
+}
+.two {
+  background-color: darkcyan;
+  /* position: relative; */
+}
+.special {
+  background-color: blanchedalmond;
+  font-size: 20px;
+  position: absolute;
+  /* Опирается на позицию ближайшего родителя. 
+     Если у родителя нет её или она не relative, то размещается в зависимости от body 
+  */
+  top: 50%;
+  right: 20%;
+}
+
+/* POSITION FIXED */
+
+button {
+  background-color: brown;
+  font-size: 40px;
+  color: whitesmoke;
+  position: fixed;
+  border-radius: 100px;
+  top: 0;
+  right: 0;
+}
