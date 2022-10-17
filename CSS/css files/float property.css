@@ -1,0 +1,58 @@
+.banner {
+  border: 5px solid blue;
+  background: rgba(212, 140, 6, 0.705);
+  padding: 10px;
+  overflow: hidden;
+}
+
+.one {
+  float: right;
+}
+.two {
+  float: left;
+  height: 150px;
+}
+
+p {
+  clear: both;
+}
+
+/* FLOAT PROPERTY COLUMN LAYOUT EXAMPLE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DIV для айнц цвай драй
+div {
+  float: left;
+  height: 200px;
+  width: 33.33%;
+} */
+
+.eins {
+  float: left;
+  background: rgb(236, 73, 73);
+  height: 200px;
+  width: 33.33%;
+}
+
+.zwei {
+  float: left;
+  background: orange;
+  height: 200px;
+  width: 33.33%;
+}
+
+.drei {
+  float: left;
+  background: green;
+  height: 200px;
+  width: 33.33%;
+}
+
+h1 {
+  clear: both;
+}
