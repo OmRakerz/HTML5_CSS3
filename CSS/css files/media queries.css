@@ -1,0 +1,87 @@
+/* 
+Responsive design 
+Style elements in different screen size
+Min-width: --- starting from 
+Max-width: --- up to 
+Mobile First 
+*/
+
+body {
+  background: orange;
+}
+
+.banner {
+  background-color: greenyellow;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+/* MIN-WIDTH */
+
+/* @media screen and (min-width: 576px) { */
+/* Ничего не сработало, т.к ширина окна браузера должна быть от 576 пикселей и больше */
+/* body {
+    background-color: brown;
+  }
+  .banner {
+    background-color: burlywood;
+  }
+  h1 {
+    color: green;
+    font-size: 50px;
+  }
+} */
+
+/* @media screen and (min-width: 860px) {
+  body {
+    background-color: aqua;
+  }
+  .banner {
+    background-color: blueviolet;
+  }
+  h1 {
+    color: red;
+    font-size: 40px;
+    text-align: right;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+} */
+
+/* MAX-WIDTH */
+
+@media screen and (max-width: 900px) {
+  /* Ничего не сработало, т.к ширина окна браузера должна быть меньше или равной 900 пикселей */
+  body {
+    background-color: plum;
+  }
+  .banner {
+    background-color: honeydew;
+    border-radius: 30px;
+  }
+  h1 {
+    color: brown;
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Ничего не сработало, т.к ширина окна браузера должна быть меньше или равной 576 пикселей */
+  body {
+    background-color: cornflowerblue;
+  }
+  .banner {
+    background-color: honeydew;
+  }
+  h1 {
+    color: brown;
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+/* свойства @media не будут работать, если ширина будет вложена в другую, выполнится первой у max-width (где больше размер пикселей), min-width (где меньше размер пикселей)
+НО если есть свойство(например border-radius: 20px) , которое не переопределяется в большем окне, то она унаследуется и к меньшей(младшей) ширины */
