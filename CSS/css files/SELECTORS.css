@@ -1,0 +1,107 @@
+/* 
+        Basic Selectors 
+*/
+
+/* * {
+  color: green;
+}
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: orangered;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: blue;
+}
+p {
+  letter-spacing: 20px;
+} */
+
+/* 
+
+    Descendant Child Selectors 
+
+*/
+/* .header h1 {
+  color: chartreuse;
+}
+.header > h1 {
+  color: purple;
+}
+div h1 {
+  color: crimson;
+}
+div > h1 {
+  color: slateblue;
+} 
+
+*/
+
+/* 
+        ::First-line 
+    And 
+        ::First-letter  */
+/* p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 5rem;
+} */
+
+/* 
+    :Hover 
+*/
+/* p:hover {
+  color: coral;
+}
+.header:hover {
+  background: tan;
+  color: rgba(245, 245, 245, 0.863);
+}
+a:hover {
+  text-decoration: none;
+} */
+
+/* 
+    Link Pseudo-Class Selectors
+:link :visited :hover :active
+
+*/
+/* a:link {
+  color: aquamarine;
+}
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: blueviolet;
+}
+a:active {
+  color: lawngreen;
+} */
+
+/* Root Preudo-Class Selectors 
+            1rem == 16px;
+*/
+:root {
+  background: tan;
+  font-size: 150%;
+}
+
+h1 {
+  color: gray;
+  font-size: 3rem;
+}
+p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.absolute {
+  font-size: 24px;
+}
+
+.responsive {
+  font-size: 1.5rem;
+}
