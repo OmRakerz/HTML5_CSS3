@@ -1,0 +1,65 @@
+p::before {
+  content: "hello ";
+  display: inline-block;
+  background-color: purple;
+  font-weight: 700px;
+  font-size: 60px;
+  color: aquamarine;
+}
+p::after {
+  content: "";
+  font-weight: 700px;
+  font-size: 60px;
+  color: blue;
+}
+
+p::after {
+  content: " "; /* мы без content: " "; другие элементы ДО и ПОСЛЕ не будут работать */
+  display: block;
+  background: green;
+  height: 80px;
+  width: 80px;
+}
+
+div {
+  width: 60vh;
+  margin: 100px auto;
+  position: relative;
+}
+img {
+  width: 100%;
+  display: block;
+}
+/* img::before{
+    content: "hello ";
+  } не работает с картинками */
+div::before {
+  content: " ";
+  border: 4px solid skyblue;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+div::after {
+  content: " ";
+  background-color: steelblue;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+
+div:hover::after,
+div:hover::before {
+  top: 0;
+  left: 0;
+}
