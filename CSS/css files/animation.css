@@ -1,0 +1,84 @@
+/*
+Transition 0 = 100%
+ANIMATION 0 1% 2% ..... 100%
+*/
+
+/* !!! Незакомиченные строки это Animation-Fill-Mode !!! */
+
+div {
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 30px;
+}
+
+/* ↓ Материал для ANIMATION ↓
+
+.transition {
+  background: coral;
+  transition: all 3s linear;
+}
+.transition:hover {
+  background: orange;
+  transform: translateX(200px);
+} 
+
+*/
+
+.animation {
+  background: skyblue;
+
+  /*
+   
+        ↓ Материал для ANIMATION ↓
+   animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2; */
+  /* ↓ сокращенный вид ↓ */
+  /* animation: move 5s infinite; 
+
+  */
+
+  animation: move 4s 2;
+  animation-fill-mode: forwards; /* , какое свойство будет у элемента, когда закончится анимация */
+}
+
+@keyframes move {
+  /* 
+        ↓ Материал для ANIMATION ↓
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(-100px);
+    background: firebrick;
+  }
+
+  75% {
+    transform: translateX(-200px);
+    background: violet;
+  }
+  100% {
+    transform: translateX(20px);
+  } 
+  
+  */
+
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 0.5;
+  }
+}
