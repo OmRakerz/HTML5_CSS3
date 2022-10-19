@@ -1,0 +1,62 @@
+hr {
+  border-width: 20px;
+}
+/* TRANSITION: change over time, TRASNSITION-DELAY  */
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+/* div:hover {
+  background-color: crimson;
+} */
+.one {
+  background-color: slateblue;
+}
+.two {
+  background-color: greenyellow;
+}
+.three {
+  background-color: orangered;
+  transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+  transition-delay: 3s;
+  /* или */
+  /* transition: background 4s 2s, border-radius 1s 2s;
+  transition: all 4s 5s; */
+}
+.three:hover {
+  border-radius: 50%;
+}
+
+/* Transition-timing function */
+.div1 > div {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: wheat;
+  margin: 10px;
+  transition: all 1s;
+}
+.div1 > div:hover {
+  transform: translateX(100px);
+}
+.ease {
+  transition-timing-function: ease; /* по умолчанию */
+}
+.linear {
+  transition-timing-function: linear;
+  /* одинаковая скорость ка и везде у начала и конца */
+}
+.ease-in {
+  /* медленный старт */
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  /* медленный конец */
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  /* медленное начало и конец */
+  transition-timing-function: ease-in-out;
+}
