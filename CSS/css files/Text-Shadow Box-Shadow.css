@@ -1,0 +1,14 @@
+h1 {
+  text-shadow: 5px 20px 30px red;
+  color: gray;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 3px 5px 5px green;
+  transition: all 0.5s linear;
+  font-size: 20px;
+  color: yellow;
+}
