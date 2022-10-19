@@ -1,0 +1,48 @@
+/* CSS VARIABLES AKA Custom Properties */
+
+/* .heading {
+  color: fuchsia;
+}
+.text {
+  color: rgb(13, 16, 182);
+}
+.main-text {
+  color: blueviolet;
+}
+.second-heading {
+  color: chocolate;
+} */
+
+/* :root{} === global ↓ */
+:root {
+  --primaryColor: #13fa6c;
+  --sesondaryColor: #4a25f1;
+  --mainTransition: all 0.5s linear;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+
+.second-heading:hover {
+  color: var(--secondatyColor);
+}
+
+/* ↓ element === local ↓ */
+
+div {
+  --primaryRed: red;
+}
+
+.main-text {
+  color: var(--primaryRed);
+}
+
+.third-heading {
+  color: var(--primaryRed);
+}
