@@ -1,0 +1,80 @@
+/* TRANSFORM: TRANSLATE() */
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.one {
+  background: cornflowerblue;
+  transform: translateX(50%);
+  /* двигается на 50% от ширины блока (на 100px) */
+}
+.two {
+  background: blue;
+  transform: translateY(40px);
+}
+.three {
+  background: brown;
+  /* transform: translateX(70px); */
+  transform: translate(150px, 300px);
+}
+
+/* TRANSFORM: scale() */
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.one {
+  background: cornflowerblue;
+  transform: scaleX(0.6);
+  /* размер элемента умножается на число в скобках */
+}
+.two {
+  background: blue;
+  transform: scaleY (0.75); /* transform: scaleX(0.5); /* размер элемента умножается на число в скобках */
+}
+.three {
+  background: brown;
+  transform: scale(0.8, 0.8);
+  transform: scaleX(0.6);
+  /* размер элемента умножается на число в скобках */
+}
+
+/* TRANSFORM: rotate() */
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.one {
+  background: cornflowerblue;
+  transform: rotate(280deg);
+}
+.two {
+  background: blue;
+  transform: rotateZ(70deg);
+}
+.three {
+  background: brown;
+  transform: rotateX(40deg);
+}
+
+/* TRANSFORM: SKEW() */
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.one {
+  background: cornflowerblue;
+  transform: skewX(45deg);
+}
+.two {
+  background: blue;
+  transform: skewX(-45deg);
+}
+.three {
+  background: brown;
+  transform: skew(30deg, 20deg);
+}
