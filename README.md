@@ -1,13 +1,13 @@
-﻿# 1st-University-project
+<h1> Курс по изучению основ в HTML5 и CSS3</h1>
 
-<h1 align="center">Hello, I'm Valera &#128522;</h1>
+Данный курс включает в себя изучение основных тегов и атрибутов, описание свойств и значений следующих языков:<br>
+<br>
+![HTML](https://img.shields.io/badge/HTML5-18ba1e?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-0062f5?style=for-the-badge&logo=css3&logoColor=white)
+<br>
+<hr>
+Видео курс - https://www.youtube.com/watch?v=mU6anWqZJcc&t=18142s
+<hr>
+Используемый редактор кода:<br>
 
-OS: ![Windows](https://img.shields.io/badge/Windows-6495ED?style=for-the-badge&logo=windows&logoColor=white)
-
-Languages and Tools: ![HTML](https://img.shields.io/badge/HTML5-7CFC00?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-FF8C00?style=for-the-badge&logo=css3&logoColor=white)
-
-<br />
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Woobzor&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Woobzor&theme=dark&show_icons=true)
+![VSCode](https://img.shields.io/badge/Visual_Studio_Code-128ae0?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
